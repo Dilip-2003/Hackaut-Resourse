@@ -2,13 +2,35 @@
 
     const resources = [
         // { title:"Topic","" }
-        {title:"HTML", link1:"https://www.w3schools.com/",link2:"https://www.w3schools.com/js/js_array_iteration.asp",link:"./ViewGeneratedDocOnFly.pdf"},
-        {title:"CSS"},
-        {title:"JavaScript"},
-        {title:"Node.js"},
-        {title:"Express.js"},
-        {title:"React.js"},
-        {title:"MongoDB"}
+        {title1:"HTML",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/",link2:"https://www.w3schools.com/js/js_array_iteration.asp",link:"./ViewGeneratedDocOnFly.pdf"},
+
+        {title1:"CSS",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/",link2:"https://www.w3schools.com/js/js_array_iteration.asp",link:"./ViewGeneratedDocOnFly.pdf"},
+
+        {title1:"JavaScript",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/",link2:"https://www.w3schools.com/js/js_array_iteration.asp",link:"./ViewGeneratedDocOnFly.pdf"},
+
+        {title1:"NodeJs",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/",link2:"https://www.w3schools.com/js/js_array_iteration.asp",link:"./ViewGeneratedDocOnFly.pdf"},
+
+        {title1:"ExpressJs",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/",link2:"https://www.w3schools.com/js/js_array_iteration.asp",link:"./ViewGeneratedDocOnFly.pdf"},
+
+        {title1:"ReactJs",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/",link2:"https://www.w3schools.com/js/js_array_iteration.asp",link:"./ViewGeneratedDocOnFly.pdf"},
+
+        {title1:"AngularJs",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/",link2:"https://www.w3schools.com/js/js_array_iteration.asp",link:"./ViewGeneratedDocOnFly.pdf"},
+
+        {title1:"HTML",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/",link2:"https://www.w3schools.com/js/js_array_iteration.asp",link:"./ViewGeneratedDocOnFly.pdf"},
+
+        {title1:"HTML",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/",link2:"https://www.w3schools.com/js/js_array_iteration.asp",link:"./ViewGeneratedDocOnFly.pdf"},
+
+        {title1:"HTML",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/",link2:"https://www.w3schools.com/js/js_array_iteration.asp",link:"./ViewGeneratedDocOnFly.pdf"},
+
+        {title1:"HTML",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/",link2:"https://www.w3schools.com/js/js_array_iteration.asp",link:"./ViewGeneratedDocOnFly.pdf"},
+
+        {title1:"HTML",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/",link2:"https://www.w3schools.com/js/js_array_iteration.asp",link:"./ViewGeneratedDocOnFly.pdf"},
+
+        {title1:"HTML",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/",link2:"https://www.w3schools.com/js/js_array_iteration.asp",link:"./ViewGeneratedDocOnFly.pdf"},
+
+        {title1:"HTML",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/",link2:"https://www.w3schools.com/js/js_array_iteration.asp",link:"./ViewGeneratedDocOnFly.pdf"}
+       
+       
         
         
     ];
@@ -17,9 +39,10 @@
 
     $.each(resources, function(index, resource) {
         const listItem = $("<li>").append(
-            $("<span>").text(resource.title),
-            $("<a>").attr("href",resource.link1).text("W3School "+resource.title),
-            $("<a>").attr("href", resource.link2).text(resource.title),
+            $("<a>").text(resource.title1),
+            $("<a>").attr("href",resource.link1).text(resource.title2),
+            $("<a>").attr("href", resource.link2).text(resource.title3),
+            $("<a>").attr("href", resource.link2).text(resource.title4),
             $("<button>").addClass("download-btn").text("Download Pdf")
            
         );

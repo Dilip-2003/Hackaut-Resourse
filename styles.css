@@ -43,7 +43,7 @@
     background-color: #007bff;
     color: white;
     border: none;
-    padding: 5px 10px;
+    padding: 5px;
     border-radius: 5px;
     cursor: pointer;
   }
@@ -55,7 +55,7 @@
 
   /* Basic styling for the navbar */
 .resource-nav {
-    background-color: #751212;
+    background-color: #1008f2e8;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -90,6 +90,11 @@
 
 
 @media  screen and (max-width :500px) {
+    body{
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+    }
     .resource-nav{
         justify-content: center;
     }
@@ -99,7 +104,7 @@
     .nav-list{
         display: flex;
         flex-direction: row;
-        font-size: 10px;
+        font-size: 15px;
     }
     .nav-list li a{
         padding: 10px 20px;
@@ -107,5 +112,6 @@
     .main{
         margin: 0;
     }
+
 
 }
