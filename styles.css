@@ -27,7 +27,7 @@ li {
   padding: 1rem;
   border-bottom: 1px solid #ddd;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   
 }
@@ -85,6 +85,14 @@ li:last-child {
 }
 .dsa{
 display: none;
+}
+.languages{
+  display: none;
+}
+.btn-click{
+  display: none;
+  height: 100px;
+  background-color:yellow;
 }
 .main{
 height: 100%;

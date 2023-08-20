@@ -20,10 +20,10 @@ const resources = [
     {title1:"ReactJs",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/react/default.asp",link2:"https://react.dev/learn",link3:"https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3",link:"./resources/ReactJSNotesForProfessionals.pdf"},
     
 
-    {title1:"AngularJs(No Pdf)",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/angular/default.asp",link2:"https://angular.io/docs",link3:"https://www.youtube.com/watch?v=zKkUN-mJtPQ&list=PL6n9fhu94yhWKHkcL7RJmmXyxkuFB3KSl"},
+    {title1:"AngularJs",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/angular/default.asp",link2:"https://angular.io/docs",link3:"https://www.youtube.com/watch?v=zKkUN-mJtPQ&list=PL6n9fhu94yhWKHkcL7RJmmXyxkuFB3KSl"},
     
 
-    {title1:"VueJs (No pdf)",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/vue/index.php",link2:"https://vuejs.org/guide/introduction.html",link3:"https://www.youtube.com/watch?v=ccsz9FRy-nk&list=PLC3y8-rFHvwgeQIfSDtEGVvvSEPDkL_1f"},
+    {title1:"VueJs ",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/vue/index.php",link2:"https://vuejs.org/guide/introduction.html",link3:"https://www.youtube.com/watch?v=ccsz9FRy-nk&list=PLC3y8-rFHvwgeQIfSDtEGVvvSEPDkL_1f"},
     
 
     {title1:"jQuery",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/jquery/default.asp",link2:"https://devdocs.io/jquery/",link3:"https://www.youtube.com/watch?v=QvaFeU0LWnc&list=PL0b6OzIxLPbzSyiC0PFaqeabe1aGhfrbW",link:"./resources/jQueryNotesForProfessionals.pdf"},
@@ -35,19 +35,19 @@ const resources = [
     {title1:"MySQL",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/mysql/default.asp",link2:"https://dev.mysql.com/doc/",link3:"https://www.youtube.com/watch?v=iP1wOSsKjW8&list=PLS1QulWo1RIahlYDqHWZb81qsKgEvPiHn",link:"./resources/MySQLNotesForProfessionals.pdf"},
     
 
-    {title1:"BootStrap (No Pdf)",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/bootstrap5/index.php",link2:"https://getbootstrap.com/docs/4.1/getting-started/introduction/",link3:"https://www.youtube.com/watch?v=wkSA9bfCmKU&list=PL0b6OzIxLPbz1cgxiH5KCBsyQij1HsPtG"},
+    {title1:"BootStrap ",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/bootstrap5/index.php",link2:"https://getbootstrap.com/docs/4.1/getting-started/introduction/",link3:"https://www.youtube.com/watch?v=wkSA9bfCmKU&list=PL0b6OzIxLPbz1cgxiH5KCBsyQij1HsPtG"},
     
 
-    {title1:"Tailwind CSS(No Pdf)",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://tailwindui.com/documentation",link2:"https://tailwindui.com/documentation",link3:"https://www.youtube.com/watch?v=L4_jarMnB0c&list=PLu0W_9lII9ahwFDuExCpPFHAK829Wto2O"},
+    {title1:"Tailwind CSS",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://tailwindui.com/documentation",link2:"https://tailwindui.com/documentation",link3:"https://www.youtube.com/watch?v=L4_jarMnB0c&list=PLu0W_9lII9ahwFDuExCpPFHAK829Wto2O"},
     
 
-    {title1:"Django(No Pdf)",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/django/index.php",link2:"https://docs.djangoproject.com/en/4.2/",link3:"https://www.youtube.com/watch?v=C1NgOmoOszc&list=PLjVLYmrlmjGcyt3m6rt21nfjhYSWP_Ue_"},
+    {title1:"Django",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/django/index.php",link2:"https://docs.djangoproject.com/en/4.2/",link3:"https://www.youtube.com/watch?v=C1NgOmoOszc&list=PLjVLYmrlmjGcyt3m6rt21nfjhYSWP_Ue_"},
     
-    {title1:"PHP(No Pdf)",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/php/default.asp",link2:"https://www.php.net/docs.php",link3:"https://www.youtube.com/watch?v=at19OmH2Bg4&list=PLu0W_9lII9aikXkRE0WxDt1vozo3hnmtR"},
+    {title1:"PHP",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/php/default.asp",link2:"https://www.php.net/docs.php",link3:"https://www.youtube.com/watch?v=at19OmH2Bg4&list=PLu0W_9lII9aikXkRE0WxDt1vozo3hnmtR"},
     
     {title1:"Git",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/git/default.asp",link2:"https://git-scm.com/doc",link3:"https://www.youtube.com/watch?v=gwWKnnCMQ5c&pp=ygUOZ2l0IGFuZCBnaXRodWI%3D",link:"./resources/GitNotesForProfessionals.pdf"},
     
-    {title1:"AWS Cloud(No Pdf)",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/aws/index.php",link2:"https://docs.aws.amazon.com/",link3:"https://www.youtube.com/watch?v=rKNSc8RrwxA&list=PL6XT0grm_TfgtwtwUit305qS-HhDvb4du"}  
+    {title1:"AWS Cloud",title2:"Online Resource1",title3:"Online Resource2", title4:"Video Reference", link1:"https://www.w3schools.com/aws/index.php",link2:"https://docs.aws.amazon.com/",link3:"https://www.youtube.com/watch?v=rKNSc8RrwxA&list=PL6XT0grm_TfgtwtwUit305qS-HhDvb4du"}  
 
 ];
 
@@ -88,7 +88,10 @@ $("#resource-list a").css({
 $("#web").click(function(){
 $(".dsa").css(
     "display","none"
-);      
+);
+$(".languages").css("display","none");
+
+
  $("#web-development").slideToggle(200);
  $(".web-development").css(
     "display","block");
@@ -181,7 +184,51 @@ $("#dsaResource-list a").css({
 
 $("#dsa").click(function(){
  $(".web-development").css("display","none");
+ $(".languages").css("display","none");
+
+
  $("#Data-structures").slideToggle(200);
  $(".dsa").css(
     "display","block");
+});
+
+
+
+const languageResources = [
+{title1:" C ",title2:"Articles-1",title3:"Articles-2",title4:"Problems",title5:"Videos1",title6:"Videos2",link1:"https://www.geeksforgeeks.org/c-programming-language/",link2:"https://www.javatpoint.com/c-programming-language-tutorial",link3:"https://www.w3resource.com/c-programming-exercises/",link4:"https://www.youtube.com/watch?v=EjavYOFoJJ0&list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S&pp=iAQB",link5:" https://www.youtube.com/watch?v=rQoqCP7LX60&list=PLxgZQoSe9cg1drBnejUaDD9GEJBGQ5hMt"},
+
+
+{title1:" C++ ",title2:"Articles-1",title3:"Articles-2",title4:"Problems",title5:"Videos1",title6:"Videos2",link1:"https://www.geeksforgeeks.org/c-plus-plus/?ref=shm",link2:"https://www.javatpoint.com/cpp-tutorial",link3:"https://www.hackerrank.com/domains/cpp",link4:"https://www.youtube.com/watch?v=j8nAHeVKL08&list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL",link5:" https://www.youtube.com/watch?v=oi1ffu6lBXE&pp=ygUMYysrIHBsYXlsaXN0"},
+
+
+{title1:" Java ",title2:"Articles-1",title3:"Articles-2",title4:"Problems",title5:"Videos1",title6:"Videos2",link1:"https://www.geeksforgeeks.org/java/?ref=shm",link2:"https://www.javatpoint.com/java-tutorial",link3:"https://www.hackerrank.com/domains/java",link4:"https://www.youtube.com/watch?v=ntLJmHOJ0ME&list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q",link5:"https://www.youtube.com/watch?v=bm0OyhwFDuY&list=PLsyeobzWxl7pe_IiTfNyr55kwJPWbgxB5 "},
+
+
+{title1:" Python ",title2:"Articles-1",title3:"Articles-2",title4:"Problems",title5:"Videos1",title6:"Videos2",link1:"https://www.geeksforgeeks.org/python-programming-language/?ref=shm",link2:"https://www.programiz.com/python-programming",link3:"https://www.hackerrank.com/domains/python",link4:"https://www.youtube.com/watch?v=6i3EGqOBRiU&list=PLdo5W4Nhv31bZSiqiOL5ta39vSnBxpOPT&pp=iAQB",link5:" https://www.youtube.com/watch?v=QXeEoD0pB3E&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3"}
+
+];
+
+const languageResourceList = $("#languagesResource-list");
+
+$.each(languageResources, function(index, languageResource) {
+    const languageListItem = $("<li>").append(
+        $("<a>").text(languageResource.title1),
+        $("<a>").attr("href",languageResource.link1).text(languageResource.title2),
+        $("<a>").attr("href", languageResource.link2).text(languageResource.title3),
+        $("<a>").attr("href", languageResource.link3).text(languageResource.title4),
+        $("<a>").attr("href", languageResource.link4).text(languageResource.title5),
+        $("<a>").attr("href", languageResource.link5).text(languageResource.title6),
+                   
+    );
+
+    languageResourceList.append(languageListItem);
+});
+
+$("#pLanguage").click(function(){
+    $(".web-development").css("display","none");
+    $(".dsa").css("display","none");
+
+    $("#languages").slideToggle(200);
+    $(".languages").css(
+       "display","block");
 });
